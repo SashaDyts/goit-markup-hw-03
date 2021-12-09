@@ -246,19 +246,17 @@ img {
   display: flex;
 }
 
-.team .item {
-  padding-bottom: 30px;
-}
-
 .team .item + .item {
   margin-left: 30px;
 }
 
-.team .text-content {
-  margin-top: 30px;
+.team .item {
+  padding-bottom: 30px;
 }
 
 .team .title {
+  margin-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
