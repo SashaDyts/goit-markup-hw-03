@@ -346,13 +346,16 @@ img {
 
 .examples .item {
   margin: 15px;
-  padding-bottom: 20px;
 }
 
 .examples .text-content {
-  margin-top: 20px;
+  padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 20px;
+
+  border: 1px solid #eeeeee;
+  border-top: 0;
 }
 
 .examples .title {
