@@ -9,6 +9,9 @@
 
   --hero-footer-bg-color: #2f303a;
   --our-team-bg-color: #f5f4fa;
+
+  --header-border: #ececec;
+  --portfolio-border: #eeeeee;
 }
 
 body {
@@ -76,7 +79,7 @@ img {
 /* Header */
 
 .page-header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .page-header .container {
@@ -354,13 +357,11 @@ img {
   padding-right: 24px;
   padding-bottom: 20px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--portfolio-border);
   border-top: 0;
 }
 
 .examples .title {
-  margin-top: 20px;
-
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
