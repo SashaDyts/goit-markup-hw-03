@@ -208,12 +208,13 @@ img {
 }
 
 /* Features */
+.section.features {
+  padding-bottom: 0;
+}
 
 .features {
   display: flex;
   justify-content: space-between;
-
-  margin-bottom: 94px;
 }
 
 .features .item {
@@ -261,16 +262,19 @@ img {
 }
 
 .team .card {
-  padding-bottom: 30px;
-
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
+.team .text-content {
+  padding-top: 30px;
+
+  padding-bottom: 30px;
+}
+
 .team .title {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -372,6 +376,10 @@ img {
 
 .examples .item {
   margin: 15px;
+}
+
+.examples .link {
+  display: block;
 }
 
 .examples .text-content {
